@@ -53,7 +53,7 @@ const HotelCard = ({ hotel }) => {
               </div>
             )}
 
-            {/* Separador entre boardbases y amenities */}
+            {/* Separator between boardbases and amenities */}
             {(boardbases && boardbases.length > 0) && (
               <hr className="border-t border-gray-200 my-6" />
             )}

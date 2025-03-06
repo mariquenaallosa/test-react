@@ -7,7 +7,7 @@ const NavBar = () => {
         {/* Logo */}
         <div className="text-3xl font-bold text-[var(--primary)]">TravelStay</div>
 
-        {/* Enlaces */}
+        {/* Links */}
         <div className="hidden md:flex items-center space-x-8">
           <a
             href="#"
@@ -29,7 +29,7 @@ const NavBar = () => {
           </a>
         </div>
 
-        {/* Botón de búsqueda (opcional) */}
+        {/* search (optional) */}
         <button className="p-2 rounded-full hover:bg-gray-100 transition-colors">
           <Search className="text-[var(--secondary)]" />
         </button>
