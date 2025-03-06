@@ -19,9 +19,8 @@ TravelStay es una aplicación desarrollada con React + Vite que permite visualiz
 - ✨ Lucide React
 
 ## 🌐 WebService Consumido
-- **URL del WebService**:  
-  [https://wmw3lg8sha.execute-api.us-east-2.amazonaws.com/dev/dummy](https://wmw3lg8sha.execute-api.us-east-2.amazonaws.com/dev/dummy)
-
+- **URL del WebService**:
+- [https://wmw3lg8sha.execute-api.us-east-2.amazonaws.com/dev/dummy](https://wmw3lg8sha.execute-api.us-east-2.amazonaws.com/dev/dummy)
 ## 📥 Instalación y configuración
 
 1. Clona el repositorio:
