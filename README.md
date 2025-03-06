@@ -1,12 +1,70 @@
-# React + Vite
+# 🚀 TravelStay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TravelStay es una aplicación desarrollada con React + Vite que permite visualizar hoteles con sus respectivos detalles consumidos desde un WebService. Muestra información como estrellas, ubicación, servicios y precios.
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📌 **Lista de hoteles** con información detallada.
+- 🏨 **Iconos representativos** para comodidades y regímenes (por ejemplo, Wi-Fi, parking, desayuno incluido).
+- 📱 **Interfaz responsiva** y estilizada con Tailwind CSS.
+- 🎨 **Iconografía atractiva** con FontAwesome y Lucide React.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tecnologías utilizadas
+
+- ⚛️ React
+- ✨ Vite
+- 🎨 Tailwind CSS
+- 🔣 FontAwesome
+- ✨ Lucide React
+
+## 🌐 WebService Consumido
+- **URL del WebService**:  
+  [https://wmw3lg8sha.execute-api.us-east-2.amazonaws.com/dev/dummy](https://wmw3lg8sha.execute-api.us-east-2.amazonaws.com/dev/dummy)
+
+## 📥 Instalación y configuración
+
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/mariquenaallosa/test-react.git
+   ```
+2. Accede al directorio del proyecto:
+   ```sh
+   cd test-react
+   ```
+3. Instala las dependencias:
+   ```sh
+   npm install
+   ```
+4. Inicia la aplicación en modo desarrollo:
+   ```sh
+   npm run dev
+   ```
+5. Abrir el proyecto en el navegador
+   - Visita http://localhost:5173 para ver la aplicación en acción.
+
+## 📂 Estructura del proyecto
+
+```
+/
+│── src/
+│   ├── components/
+│   │   ├── DynamicIcon.jsx
+│   │   ├── HotelCard.jsx
+│   │   ├── HotelList.jsx
+│   │   ├── NavBar.jsx
+│   │   ├── RenderStars.jsx
+│   │   ├── Spinner.jsx
+│   ├── services/
+│   │   ├── api.js
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│── public/
+│   ├── travel.svg
+│── index.html
+│── package.json
+│── vite.config.js
+│── README.md
+```
