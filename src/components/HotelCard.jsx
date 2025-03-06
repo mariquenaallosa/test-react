@@ -81,7 +81,7 @@ const HotelCard = ({ hotel }) => {
               )}
             </div>
             <button className="w-full bg-[var(--primary)] hover:bg-[var(--secondary)] text-white py-3 rounded-lg transition-colors mt-6 font-medium">
-              View Details
+              Ver Detalles
             </button>
           </div>
         </div>

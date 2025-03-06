@@ -71,8 +71,7 @@ const DynamicIcon = ({ word }) => {
         size="lg"
         color={isHovered ? "#fff" : "#333"}
         style={{
-          transition: "color 0.1s, transform 0.2s",
-          transform: isHovered ? "scale(1.1)" : "scale(1)", 
+          transition: "color 0.3s",
         }}
       />
     </div>
